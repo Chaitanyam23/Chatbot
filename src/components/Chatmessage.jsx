@@ -1,5 +1,4 @@
-import Icon from "./icon";
-
+import Icon from "./Icon";
 const Chatmessage = ({ chat }) => {
   return (
     <div className={`message ${chat.role === "model" ? "bot" : "user"}-message`}>

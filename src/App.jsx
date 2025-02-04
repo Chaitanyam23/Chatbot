@@ -1,8 +1,7 @@
 import { useEffect, useRef, useState } from "react" 
 import Chatform from "./components/Chatform"
 import Chatmessage from "./components/Chatmessage"
-import Icon from "./components/icon"
-
+import Icon from "./components/Icon"
 
 const App = () => {
 
